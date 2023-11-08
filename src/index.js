@@ -1,6 +1,7 @@
 import { home } from "./homeCont";
 import { menu } from "./menuCont";
 import { about } from "./aboutCont";
+import "./style.css";
 
 const contentHolder = document.querySelector("#content");
 
