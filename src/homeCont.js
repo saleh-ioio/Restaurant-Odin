@@ -1,3 +1,5 @@
+import img from "./kababBg.jpeg";
+
 const homeContTab = (function () {
   const mainHolder = document.createElement("div");
   mainHolder.classList.add("mainCont");
@@ -12,10 +14,7 @@ const homeContTab = (function () {
   copy2.textContent = "Made with Meat since 1400 AH";
 
   const restImg = document.createElement("img");
-  restImg.setAttribute(
-    "src",
-    "../src/1000_F_251515285_jLPnXbwAmxw0Xj6hfsWgVWBdKpNPi4NH.jpg"
-  );
+  restImg.setAttribute("src", img);
   restImg.setAttribute("width", "400px");
   restImg.setAttribute("height", "400px");
 

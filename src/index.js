@@ -2,7 +2,7 @@ import { home } from "./homeCont";
 import { menu } from "./menuCont";
 import { about } from "./aboutCont";
 import "./style.css";
-
+import github from "./github.png";
 const contentHolder = document.querySelector("#content");
 
 let tabsCreationContent = function () {

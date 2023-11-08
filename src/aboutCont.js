@@ -1,3 +1,5 @@
+import img from "./map.png";
+
 const aboutContainer = (function () {
   const mainHolder = document.createElement("div");
   mainHolder.classList.add("mainCont");
@@ -9,7 +11,7 @@ const aboutContainer = (function () {
   phoneNumNode.textContent = "078 55665566";
 
   const imgNode = document.createElement("img");
-  imgNode.setAttribute("src", "../src/IMG-1480.webp");
+  imgNode.setAttribute("src", img);
   imgNode.setAttribute("width", "400px");
 
   mainHolder.append(locationNode);
