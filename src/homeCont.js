@@ -1,4 +1,4 @@
-import img from "./kababBg.jpeg";
+import img from "./logo.jpg";
 
 const homeContTab = (function () {
   const mainHolder = document.createElement("div");
